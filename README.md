@@ -18,6 +18,7 @@
     - [Tech Stack](#tech-stack)
 - [💻 Getting Started](#getting-started)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [📝 License](#license)
@@ -75,7 +76,13 @@ bundle install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Key Features <a name="key-features"></a>
 
+- **Implement adding new students or teachers functionality**
+- **Implement adding new books functionality**
+- **Implement saving records of who borrowed a given book functionality**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
