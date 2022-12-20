@@ -76,7 +76,7 @@ bundle install
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Key Features <a name="key-features"></a>
+## 🔭 Future Features <a name="key-features"></a>
 
 - **Implement adding new students or teachers functionality**
 - **Implement adding new books functionality**
