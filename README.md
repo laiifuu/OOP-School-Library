@@ -51,11 +51,11 @@
 ### Setup
 1. Download the **Zip** file or clone the repo with:
 ```bash
-git https://github.com/laiifuu/create-enumerable.git
+git https://github.com/laiifuu/OOP-School-Library.git
 ```
 2. To access cloned directory run:
 ```bash
-cd create-enumerable
+cd OOP-School-Library
 ```
 
 ### Install
