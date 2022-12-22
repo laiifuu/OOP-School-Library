@@ -6,7 +6,7 @@ require_relative 'student'
 require_relative 'teacher'
 
 class App
-  attr_reader  :people, :books, :rentals
+  attr_reader :people, :books, :rentals
 
   def initialize
     @people = []
@@ -155,4 +155,3 @@ class App
     end
   end
 end
-
