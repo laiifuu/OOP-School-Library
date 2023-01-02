@@ -62,36 +62,6 @@ class App
     end
   end
 
-  def create_teacher(name, age)
-    print 'Specialization: '
-    specialization = gets.chomp
-    Teacher.new(name, age, specialization)
-  end
-
-  def create_book
-    print 'Title: '
-    title = gets.chomp
-    print 'Author: '
-    author = gets.chomp
-    book = Book.new(title, author)
-    add_book(book)
-    puts 'Book created successfully.'
-  end
-
-  def create_rental
-    puts 'Select a book from the following list by number: '
-    list_books
-    book_id = gets.chomp.to_i
-    puts 'Select a person from the following list by number: '
-    list_people
-    person_id = gets.chomp.to_i
-    print 'Date: '
-    date = gets.chomp
-    rental = Rental.new(@people[person_id], @books[book_id], date)
-    add_rental(rental)
-    puts 'Rental created successfully.'
-  end
-
   def pick_action(number)
     case number
     when 1
