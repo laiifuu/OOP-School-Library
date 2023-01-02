@@ -2,6 +2,7 @@ require_relative 'book'
 require_relative 'person'
 require_relative 'rental'
 require_relative 'teacher'
+require_relative 'student'
 
 def create_person
   print 'Do you want to create a student (1) or a teeacher (2)? [Input the number]: '
