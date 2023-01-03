@@ -6,7 +6,6 @@ class Rental
     @date = date
 
     @book = book
-    puts @book.title
     book.rentals << self
 
     @person = person
@@ -15,7 +14,7 @@ class Rental
 
   def to_json(*args)
     {
-      'date' => @date, 
+      'date' => @date,
       'book' => @book,
       'person' => @person
     }.to_json(*args)

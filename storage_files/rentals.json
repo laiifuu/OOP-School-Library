@@ -1,13 +1,1 @@
-[
-  {
-    "date": "05-04-2006",
-    "book": { "id": 2679, "title": "hello world", "author": "nasa" },
-    "person": {
-      "json_class": "Student",
-      "id": 527,
-      "name": "kjhgkhjgj",
-      "age": 12,
-      "parent_permission": { "parent_permission": true }
-    }
-  }
-]
+[{"date":"20-12-2022","book":{"id":2537,"title":"How to halfown a goal, beginner's guide","author":"Harry freaking McGuire"},"person":{"json_class":"Teacher","id":105,"name":"Harry McGuire","age":28,"specialization":"Failed Footballer"}}]
