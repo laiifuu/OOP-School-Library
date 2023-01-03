@@ -1,0 +1,13 @@
+[
+  {
+    "date": "05-04-2006",
+    "book": { "id": 2679, "title": "hello world", "author": "nasa" },
+    "person": {
+      "json_class": "Student",
+      "id": 527,
+      "name": "kjhgkhjgj",
+      "age": 12,
+      "parent_permission": { "parent_permission": true }
+    }
+  }
+]
