@@ -1,12 +1,16 @@
 require_relative 'create_objects'
+require_relative 'io_operations'
 
 class App
   attr_reader :people, :books, :rentals
 
+  include SaveData
+  include LoadData
+
   def initialize
-    @people = []
-    @books = []
-    @rentals = []
+    @books = load_books
+    @people = load_people
+    @rentals = load_rentals
     @welcome_text = "\nPlease choose an option by entering a number:
     1- List all books
     2- List all people
@@ -85,12 +89,12 @@ class App
     until exit
       puts @welcome_text
       number = gets.to_i
-
       if number < 7
         pick_action(number)
       elsif number == 7
-        puts 'Thanks for using our library app, see you soon!'
+        save
         exit = true
+        puts 'Thanks for using our library app, see you soon!'
       else
         puts "Error friend, wrong input. Sorry I don't make the rules ¯\\(ツ)/¯"
       end
