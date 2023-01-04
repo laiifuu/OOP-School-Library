@@ -18,5 +18,9 @@ describe Teacher do
     it 'should return parent permission for teacher' do
       expect(teacher.specialization).to eq specialization
     end
+
+    it 'should return if a teacher can use services = true' do
+      expect(teacher.can_use_services?).to eq true
+    end
   end
 end
